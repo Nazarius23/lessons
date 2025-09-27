@@ -1,0 +1,57 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+body {
+	background-color: #e9e4da;
+	color: #161616;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+/*========================================*/
+
+.logo {
+	font-family: 'Riola-Mystic', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.menu {
+	font-size: 22px;
+	text-align: center;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+/*========================================*/
+
+.title {
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 1.1;
+	line-height: 1.1;
+}
+.home__text {
+	font-weight: 18px;
+	text-shadow: 2px 2px 4px #4f4d4d;
+}
+
+/*========================================*/
+
+.teachers__text p mark {
+	color: #d90000;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	text-shadow: 2px 2px 4px #581515;
+}
+/*========================================*/
+
+.timetable__title {
+	text-transform: uppercase;
+	line-height: 1.8;
+}
+
+.timetable__text {
+	text-decoration: line-through;
+}
