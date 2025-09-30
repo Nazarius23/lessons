@@ -1,0 +1,104 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+body {
+	background-color: #d6d6d6;
+	color: #161616;
+	font-family: 'Poppins', sans-serif;
+}
+/*========================================*/
+[class*='__container'] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*========================================*/
+
+.hero-title {
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+}
+/*========================================*/
+.wrapper {
+}
+
+/*========================================*/
+.header {
+}
+.header__container {
+}
+.header__title {
+}
+/*========================================*/
+.page {
+}
+.page__hero {
+}
+.hero {
+}
+.hero__container {
+}
+/*========================================*/
+.hero__wrapper {
+	padding: 60px 0;
+}
+
+/*========================================*/
+.hero__items {
+	font-size: 0;
+	margin: 0 -30px;
+
+	overflow-x: auto;
+	white-space: nowrap;
+}
+/*========================================*/
+.hero__item {
+	max-width: 33.333%;
+	min-width: 266px;
+
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+	text-align: center;
+
+	font-size: 16px;
+
+	padding: 0 30px;
+}
+.hero__item img {
+	display: inline-block;
+	width: 100%;
+	max-width: 40px;
+	margin-bottom: 30px;
+}
+/*========================================*/
+.items-hero--top {
+	margin-bottom: 50px;
+}
+.items-hero--bottom {
+}
+/*========================================*/
+.hero__content {
+	padding: calc(15 / 350 * 100%);
+}
+.hero__title {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.hero__text {
+	color: #444444;
+	white-space: wrap;
+}
+/*========================================*/
+.footer {
+}
+.footer__container {
+}
+.footer__title {
+}
