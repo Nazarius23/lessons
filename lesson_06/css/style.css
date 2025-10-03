@@ -1,0 +1,116 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/*========================================*/
+body {
+	background-color: #fff;
+	color: #161616;
+	font-family: 'Lato', sans-serif;
+}
+/*========================================*/
+[class*='__container'] {
+	max-width: 1360px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*========================================*/
+
+.header__logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 200px 42px;
+	margin: 10px 0;
+	height: 42px;
+}
+/*========================================*/
+
+/*========================================*/
+
+.hero__wrapper {
+	background: url('../img/bgimage.png') 0 50% / cover no-repeat;
+}
+.hero__body {
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 0.3) 10%,
+		rgba(255, 255, 255, 0.1) 60%
+	);
+}
+.hero__contents {
+	max-width: 600px;
+	padding: calc(162 / 1360 * 100%) 30px;
+	margin: 0 auto;
+}
+.hero__label {
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(47, 48, 44, 1);
+	margin-bottom: 20px;
+}
+.hero__title {
+	font-size: 96px;
+	font-weight: 600;
+	color: #2f302c;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 16px;
+
+	border-bottom: 2px solid rgba(47, 48, 44, 0.7);
+}
+
+/*========================================*/
+
+.content-hero__title {
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(47, 48, 44, 1);
+	margin-bottom: 20px;
+	margin-top: 36px;
+}
+/*========================================*/
+.content-hero__text {
+	color: rgba(126, 127, 124, 1);
+}
+/*========================================*/
+.page__pricol {
+}
+.pricol {
+	padding: 30px;
+}
+
+.pricol__list {
+	font-size: 0;
+	margin: 0 auto;
+}
+
+/*========================================*/
+.items-pricol {
+	width: 33.333%;
+	display: inline-block;
+
+	padding: 20px 30px;
+}
+/*========================================*/
+.pricol__item {
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+
+	background: url('../img/check.png') left 0 / 23px no-repeat;
+	min-height: 32px;
+
+	padding-left: 42px;
+}
+.items-pricol--gradient {
+	background: #e6efea;
+	background: linear-gradient(
+		0deg,
+		rgba(230, 239, 234, 1) 37%,
+		rgba(156, 217, 230, 0.5) 100%
+	);
+	border-radius: 10px;
+}
