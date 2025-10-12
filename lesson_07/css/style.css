@@ -38,6 +38,7 @@ body {
 .page__list {
 }
 .list {
+	margin-top: 50px;
 }
 .list__container {
 }
@@ -210,11 +211,11 @@ body {
 	display: block;
 }
 .game__title:hover .game__almost-finished {
-	display: inline-block;
+	visibility: visible;
 }
 
 .game__almost-finished {
-	display: none;
+	visibility: hidden;
 	background-color: #3232323d;
 	width: 100%;
 	height: 100%;
@@ -223,13 +224,11 @@ body {
 }
 
 .game__almost-finished:hover .game__finish {
-	display: block;
+	visibility: visible;
 }
-.game__finish a {
-	display: inline-block;
-}
+
 .game__finish {
-	display: none;
+	visibility: hidden;
 	background-color: #471e1e3d;
 	padding: 40px;
 }
