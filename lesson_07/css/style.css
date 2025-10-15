@@ -60,7 +60,7 @@ body {
 }
 .list__item::before {
 	content: '';
-	background-image: url(/img/check_image.png);
+	background-image: url(img/check_image.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	background-size: 32px;
