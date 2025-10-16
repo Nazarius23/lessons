@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>lesson_08</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="img/logo.webp" alt="Image" />
+						<span>png to webp</span>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__container">
+					<div class="page__hero hero">
+						<picture class="hero__image">
+							<source
+								srcset="
+									img/hero_1x.webp 1x,
+									img/hero_2x.webp 2x,
+									img/hero_3x.webp 3x
+								"
+							/>
+							<img src="img/hero_1x.webp" alt="Image" />
+						</picture>
+						<div class="hero__descriptions">
+							<span>picture + source img x1, img x2, img x3</span>
+							<span>JPEG to WEBP</span>
+						</div>
+					</div>
+					<div class="page__divan divan">
+						<div class="divan__container">
+							<img src="img/sofa.webp" alt="Image" />
+							<span>png to webp</span>
+						</div>
+					</div>
+					<div class="page__list list">
+						<ul class="list__items">
+							<li class="list__item">
+								<img src="img/bathtub.svg" alt="Image" />
+								<span>svg icon</span>
+							</li>
+							<li class="list__item">
+								<img src="img/snowboard.svg" alt="Image" />
+								<span>svg icon</span>
+							</li>
+							<li class="list__item">
+								<img src="img/swiming.svg" alt="Image" />
+								<span>svg icon</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container"><p>footer</p></div>
+			</footer>
+		</div>
+	</body>
+</html>
