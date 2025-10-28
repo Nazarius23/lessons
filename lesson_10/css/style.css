@@ -150,9 +150,11 @@ body {
 }
 /*========================================*/
 /*========================================*/
+
 /*========================================*/
 
 .page__face {
+	margin-bottom: 80px;
 }
 .face {
 }
@@ -248,4 +250,13 @@ body {
 .face__button:hover {
 	rotate: 1880deg;
 	scale: 0.5;
+}
+
+.footer {
+	background-color: #fd8d8d;
+}
+.footer__container {
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
 }
