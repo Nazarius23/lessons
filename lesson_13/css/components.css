@@ -1,0 +1,17 @@
+.title {
+	color: rgba(47, 48, 44, 1);
+	text-transform: uppercase;
+}
+.title--big {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+.title--small {
+	font-size: 16px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.title--bold {
+	font-weight: 800;
+}
