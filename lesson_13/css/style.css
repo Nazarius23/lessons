@@ -122,6 +122,11 @@ body {
 .products__name {
 }
 .products__assessment {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4px;
+	max-width: 160px;
 }
 .products__cost {
 	font-size: 20px;
