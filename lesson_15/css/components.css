@@ -1,0 +1,90 @@
+.link {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+/*===========================================================================*/
+@media (any-hover: hover) {
+	.menu__link {
+		position: relative;
+	}
+	.menu__link::before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: rgba(47, 48, 44, 1);
+
+		transform: scaleX(0);
+		transform-origin: left;
+
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.menu__link:hover::before {
+		transform: scaleX(1);
+	}
+	.menu__link:not(:hover)::before {
+		transform-origin: right;
+	}
+}
+/*===========================================================================*/
+.hero {
+}
+/*===========================================================================*/
+.title {
+	font-size: 96px;
+	font-weight: 900;
+	line-height: 102.040816%; /* 100/98 */
+}
+@media (max-width: 767.98px) {
+	.title {
+		font-size: 76px;
+		font-weight: 900;
+		line-height: 102.040816%; /* 100/98 */
+	}
+}
+@media (max-width: 424.98px) {
+	.title {
+		font-size: 56px;
+		font-weight: 900;
+		line-height: 102.040816%; /* 100/98 */
+	}
+}
+
+/*===========================================================================*/
+
+.menu__form--warning {
+	background-color: #fff;
+
+	font-size: 11px;
+	max-width: 365px;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: rgb(255, 174, 0);
+}
+.warning-form {
+}
+.warning-form__header {
+	padding: 10px 0;
+	background-color: #000;
+	text-align: center;
+	color: rgb(255, 174, 0);
+}
+.warning-form__title {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.warning-form__descriptions {
+	padding: 10px 15px;
+	border-right: 2px dashed #000;
+	border-bottom: 2px dashed #000;
+	border-left: 2px dashed #000;
+	line-height: 110%;
+}
+.warning-form__descriptions mark {
+	font-size: 13px;
+	font-weight: 700;
+}

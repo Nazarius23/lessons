@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="icon" type="image/svg" href="img/intersect.svg" />
+		<title>lesson_15</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo.svg" alt="Image" />
+					</a>
+					<div class="header__menu menu">
+						<form action="#" class="menu__form">
+							<input
+								autocomplete="off"
+								type="text"
+								name="search"
+								data-error="Чиє це пірожине?"
+								placeholder="Search something"
+								class="menu__input"
+							/>
+							<button type="submit" class="menu__search-buttom">
+								<img src="img/search.svg" alt="search" />
+							</button>
+							<div class="menu__form--warning warning-form">
+								<div class="warning-form__header">
+									<div class="warning-form__title">
+										<h3>warning</h3>
+									</div>
+								</div>
+								<div class="warning-form__descriptions">
+									<p>
+										Кароче, я собі накрутив, що все знаю про форми — і скіпнув урок
+										про форми, ю ноу? Але-але-але, коли зіткнувся зі формами, то
+										виявилося, що я ніц не пам’ятаю. Тому зробив по пам’яті, але
+										клянувся Господом Богом, що подивлюся урок і, мабуть, навіть
+										зроблю ДЗ.
+										<mark
+											>P.S. Надіюся, це ДЗ перевіряє Пауль — he is my favourite
+											mentor.</mark
+										>
+									</p>
+								</div>
+							</div>
+						</form>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link link">HOME</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link link">SHOP </a>
+									<span></span>
+									<ul class="menu__drop drop-menu">
+										<li class="drop-menu__item">
+											<a href="" class="drop-menu__link link">What did</a>
+										</li>
+										<li class="drop-menu__item">
+											<a href="" class="drop-menu__link link">you say</a>
+										</li>
+										<li class="drop-menu__item">
+											<a href="" class="drop-menu__link link">to my</a>
+										</li>
+										<li class="drop-menu__item">
+											<a href="" class="drop-menu__link link">mom?</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link link">BLOG</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link link">ABOUT US</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__action action-header">
+						<a href="#" class="action-header__link link-action-header--selected"
+							><span><img src="img/heard.svg" alt="Image" /></span> LOVE</a
+						>
+						<a href="#" class="action-header__link link-action-header--cart"
+							><span><img src="img/beg.svg" alt="Image" /></span> CART</a
+						>
+					</div>
+					<button type="button" class="header__icon icon-menu"><span></span></button>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__content content-hero">
+							<div class="content-hero__label">WELCOME TO OUR</div>
+							<div class="content-hero__title title">
+								<h1>FUNITURE GALLERY</h1>
+							</div>
+							<div class="content-hero__sub-titel">
+								<h3>BROWSE OUR SELECTIONS</h3>
+							</div>
+							<div class="content-hero__text">
+								<p>
+									Featuring sleek designs and innovative materials that seamlessly
+									blend form and function.
+								</p>
+							</div>
+						</div>
+						<picture class="hero__image">
+							<source srcset="img/bg_x3.webp 3x" type="image/webp" />
+							<source srcset="img/name-x2.webp 2x" type="image/webp" />
+							<img class="hero__img" src="img/bg_x1.5.webp" alt="alt" />
+						</picture>
+					</div>
+				</section>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
