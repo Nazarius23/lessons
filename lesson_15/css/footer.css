@@ -1,0 +1,14 @@
+.footer {
+	background-color: rgba(107, 122, 128, 0.5);
+}
+.footer__container {
+	display: flex;
+	justify-content: center;
+}
+.footer__link {
+	padding: 40px;
+	font-weight: 900;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1.05px;
+}

@@ -7,6 +7,8 @@
 /*========================================*/
 @import url(header.css);
 /*========================================*/
+@import url(footer.css);
+/*========================================*/
 body {
 	background-color: #fff;
 	color: #2f302c;
@@ -26,6 +28,7 @@ body {
 /*========================================*/
 
 .page {
+	min-height: 100vh;
 }
 .page__hero {
 	position: relative;
