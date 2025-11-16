@@ -187,7 +187,6 @@
 .menu__form:not(:hover) .menu__form--warning {
 	opacity: 0;
 	visibility: hidden;
-	transition: opacity 5s, visibility 5s;
 }
 .menu__form::before {
 	content: '';
