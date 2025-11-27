@@ -1,0 +1,47 @@
+.title {
+	color: #2f302c;
+}
+.title--small {
+	font-size: 20px;
+	line-height: 140%; /* 28/20 */
+	font-weight: 700;
+}
+.title--medium {
+	font-size: 32px;
+	line-height: 125%; /* 40/32 */
+	font-weight: 800;
+}
+.title--big {
+	font-family: 'Montserrat';
+	font-size: 96px;
+	line-height: 104.166667%; /* 100/96 */
+}
+/*================================================================*/
+
+.link--animation-bottom-line {
+	position: relative;
+}
+
+@media (any-hover: hover) {
+	.link--animation-bottom-line::before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: #2f302c;
+
+		transform: scaleX(0);
+		transform-origin: left;
+
+		transition: transform 0.3s ease-in-out;
+	}
+	.link--animation-bottom-line:hover::before {
+		transform: scaleX(1);
+	}
+	.link--animation-bottom-line:not(:hover)::before {
+		transform-origin: right;
+		transition: transform 0.3s ease-in-out;
+	}
+}

@@ -1,0 +1,128 @@
+.page__products {
+	margin-bottom: 164px;
+}
+.products {
+}
+.products__container {
+	display: grid;
+	grid-template-rows: auto;
+
+	row-gap: 72px;
+}
+/*================================================*/
+.products__header {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+
+	justify-items: center;
+	row-gap: 36px;
+}
+.header-products {
+}
+.header-products__title {
+	text-align: center;
+}
+.header-products__menu {
+}
+/*================================================*/
+.header-products__body {
+}
+.header-products__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 48px;
+}
+.header-products__item {
+}
+.header-products__button {
+	font-weight: 700;
+	padding-bottom: 8px;
+}
+/*================================================*/
+.products__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+	column-gap: 36px;
+	row-gap: 72px;
+}
+.products__item {
+}
+
+.products__wrapper {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+
+	row-gap: 32px;
+}
+.products__info-content {
+	order: 2;
+
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+}
+.products__name {
+}
+.products__assessment {
+}
+.products__cost {
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 140%;
+}
+.products__image {
+	order: 1;
+}
+.products__image img {
+	height: 574px;
+
+	object-fit: cover;
+	aspect-ratio: 440 / 574;
+}
+
+@media (max-width: 767.98px) {
+	.page__products {
+		margin-bottom: 100px;
+	}
+	.products__container {
+		row-gap: 50px;
+	}
+
+	.products__list {
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+		column-gap: 20px;
+		row-gap: 30px;
+	}
+	.products__wrapper {
+		row-gap: 20px;
+	}
+}
+@media (max-width: 424.98px) {
+	.header-products__list {
+		flex-direction: column;
+		text-align: center;
+
+		row-gap: 15px;
+	}
+	.header-products__button {
+		font-size: 18px;
+		color: #3d3d3d;
+	}
+	.products__cost {
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
+.products__item {
+	transition: all 0.7s cubic-bezier(0.69, 0.08, 0.22, 0.86);
+}
+@media (any-hover: hover) {
+	.products__item:hover {
+		transform: scale(1.05);
+	}
+	.products__item:not(:hover) {
+		transition: all 0.5s cubic-bezier(0.69, 0.08, 0.22, 0.86);
+	}
+}

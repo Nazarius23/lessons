@@ -1,0 +1,38 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+@import url(components.css);
+/*========================================*/
+@import url(header.css);
+/*========================================*/
+@import url(assortment.css);
+/*========================================*/
+@import url(trusted.css);
+/*========================================*/
+@import url(products.css);
+/*========================================*/
+@import url(benefits.css);
+/*========================================*/
+@import url(footer.css);
+/*========================================*/
+
+body {
+	background-color: #fff;
+	color: #2f302c;
+	font-family: 'Lato', serif;
+	font-size: 1rem;
+	line-height: 125%; /* 20/16 */
+}
+/*========================================*/
+.wrapper {
+	min-width: 100%;
+	overflow: clip;
+}
+[class*='__container'] {
+	max-width: 1420px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/*========================================*/
