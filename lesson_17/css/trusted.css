@@ -22,13 +22,28 @@
 	justify-items: center;
 }
 .trusted__item {
+	display: flex;
+	justify-content: center;
 }
-.trusted__image img {
+.trusted__image {
 	max-width: 100%;
 }
 
 @media (max-width: 767.98px) {
+	.trusted__list {
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		gap: 10px;
+	}
 	.page__trusted {
 		margin-bottom: 100px;
+	}
+}
+@media (max-width: 424.98px) {
+	.trusted__list {
+		grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+		gap: 10px;
+	}
+	.trusted__list {
+		gap: 10px;
 	}
 }
