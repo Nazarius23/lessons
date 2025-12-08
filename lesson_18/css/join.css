@@ -1,0 +1,92 @@
+.page__join {
+}
+.join {
+}
+.join__container {
+	display: flex;
+	flex-direction: column;
+
+	row-gap: 41px;
+}
+.lessons__main-content {
+}
+
+.main-content__title {
+}
+
+.main-content__text {
+}
+
+.schedule-join__body {
+	display: grid;
+	grid-template-columns: 55.25% 41.91%;
+
+	column-gap: 33px;
+	align-items: center;
+	justify-content: space-between;
+}
+.schedule-join__list {
+	border-top: 1px solid var(--beige-color);
+	border-bottom: 1px solid var(--beige-color);
+
+	display: flex;
+	flex-direction: column;
+}
+.schedule-join__items {
+}
+
+.schedule-join__items:not(:last-child) {
+	border-bottom: 1px solid var(--beige-color);
+}
+.schedule-join__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 0.625rem;
+	padding: 1.125rem 0;
+
+	line-height: 1.58;
+	text-transform: uppercase;
+}
+
+.schedule-join__day {
+}
+.schedule-join__class {
+	display: flex;
+	align-items: flex-start;
+}
+.schedule-join__time {
+}
+
+.schedule-join__image {
+	border-radius: 2.0625rem;
+	overflow: clip;
+}
+.schedule-join__image img {
+	object-fit: cover;
+	aspect-ratio: 503 / 602;
+}
+
+@media (max-width: 991.98px) {
+	.schedule-join__body {
+		grid-template-columns: 1fr;
+	}
+
+	.schedule-join__image {
+		display: none;
+	}
+}
+@media (max-width: 767.98px) {
+	.schedule-join__info {
+		font-size: 16px;
+	}
+}
+@media (max-width: 525.98px) {
+	.schedule-join__info {
+		flex-direction: column;
+		row-gap: 25px;
+	}
+	.schedule-join__info {
+		font-size: 19px;
+	}
+}

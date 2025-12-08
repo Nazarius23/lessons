@@ -1,0 +1,43 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+@import url(components.css);
+/*========================================*/
+@import url(header.css);
+/*========================================*/
+@import url(hero.css);
+/*========================================*/
+@import url(selling.css);
+/*========================================*/
+@import url(lessons.css);
+/*========================================*/
+@import url(join.css);
+/*========================================*/
+@import url(footer.css);
+/*========================================*/
+/*tipa-palitra============================*/
+:root {
+	--text-color: #343434;
+	--beige-color: #ba936f;
+	--beige-opacity: #fdefe6;
+}
+/*========================================*/
+body {
+	color: var(--text-color);
+	font-family: 'Montserrat', serif;
+	font-size: 1.0625rem;
+	line-height: 1.58;
+}
+/*========================================*/
+.wrapper {
+	min-width: 100%;
+	overflow: clip;
+}
+[class*='__container'] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 0.9375rem;
+}
+/*========================================*/
