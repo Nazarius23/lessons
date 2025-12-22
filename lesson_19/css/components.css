@@ -1,0 +1,65 @@
+/*Logo=====================================================*/
+
+.logo {
+	font-size: 1.5rem;
+	line-height: 1.33;
+
+	text-transform: uppercase;
+
+	color: var(--text-withe-color);
+}
+.logo--big {
+	font-size: 2.25rem;
+}
+
+/*title=====================================================*/
+.title {
+	font-size: 2.25rem;
+	line-height: 1.11;
+
+	text-transform: capitalize;
+}
+.title--big {
+	font-size: 2.9375rem;
+	line-height: 1.35;
+}
+.title--small {
+	font-size: 1.875rem;
+}
+@media (max-width: 424.98px) {
+	.title--big {
+		font-size: clamp(2.25rem, 11vw, 2.9375rem);
+	}
+}
+.title--withe {
+	color: var(--text-withe-color);
+}
+/*button=====================================================*/
+.button {
+	display: inline-block;
+	padding: 0.625rem 3rem;
+
+	color: var(--text-color);
+	border: 0.0625rem solid var(--text-color);
+	transition: background-color 0.5s ease-out;
+}
+@media (any-hover: hover) {
+	.button:hover {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+}
+.button--small {
+	padding: 0.625rem 0.8125rem;
+}
+.button--withe {
+	color: var(--text-withe-color);
+	border: 0.0625rem solid var(--text-withe-color);
+	background-color: rgba(255, 255, 255, 0);
+
+	transition: background-color 0.4s ease-out;
+}
+@media (any-hover: hover) {
+	.button--withe:hover {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+}

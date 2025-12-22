@@ -1,0 +1,125 @@
+.page__assortment {
+}
+.assortment {
+}
+.assortment__container {
+	display: flex;
+	flex-direction: column;
+
+	border-top: 1px solid rgba(131, 127, 127, 1);
+}
+.assortment__header {
+	padding-top: 3.9375rem;
+	align-self: center;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	row-gap: 1.9375rem;
+}
+.assortment__header:not(:last-child) {
+	margin-bottom: 6.25rem;
+}
+.assortment__title {
+}
+
+.assortment__menu {
+}
+
+.menu-assortment__body {
+}
+.menu-assortment__list {
+	display: flex;
+	flex-direction: column;
+
+	row-gap: 1.375rem;
+}
+.menu-assortment__item {
+}
+.menu-assortment__link {
+	font-size: 1rem;
+	position: relative;
+	line-height: 1.31;
+	padding-bottom: 0.625rem;
+}
+@media (any-hover: hover) {
+	.menu-assortment__link::before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 0.0625rem;
+
+		background-color: var(--text-color);
+
+		transform: scale(0);
+		transform-origin: center;
+
+		transition: transform 0.4s ease-out;
+	}
+	.menu-assortment__link:hover::before {
+		transform: scale(1);
+	}
+}
+.assortment__articles {
+}
+.assortment__articles:not(:last-child) {
+	margin-bottom: 7.375rem;
+}
+.articles-assortment {
+}
+.articles-assortment__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12.875rem, 1fr));
+
+	column-gap: 5.375rem;
+	row-gap: 4.75rem;
+
+	max-width: 49.5rem;
+	margin: 0 auto;
+}
+.articles-assortment__item {
+	transition: scale 0.5s ease-in-out;
+}
+@media (any-hover: hover) {
+	.articles-assortment__item:hover {
+		scale: 1.05;
+	}
+}
+.articles-assortment__wrapper {
+	display: flex;
+	flex-direction: column-reverse;
+
+	row-gap: 1rem;
+}
+.articles-assortment__name {
+	font-size: 1.25rem;
+	line-height: 1.35;
+}
+.articles-assortment__image {
+	aspect-ratio: 200 / 208;
+	object-fit: cover;
+}
+.assortment__button {
+	align-self: center;
+}
+
+@media (max-width: 767.98px) {
+	.articles-assortment__list {
+		column-gap: clamp(1.875rem, 8vw, 5.375rem);
+		row-gap: clamp(1.875rem, 8vw, 4.75rem);
+	}
+}
+@media (max-width: 424.98px) {
+	.assortment__header {
+		padding-top: 3.75rem;
+	}
+	.assortment__header:not(:last-child) {
+		margin-bottom: 5rem;
+	}
+	.assortment__articles:not(:last-child) {
+		margin-bottom: 5rem;
+	}
+}

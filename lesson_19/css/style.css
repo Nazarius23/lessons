@@ -1,0 +1,41 @@
+/*==============reset seting==============*/
+@import url(reset.css);
+/*==============reset seting==============*/
+@import url(fonts.css);
+/*========================================*/
+@import url(components.css);
+/*========================================*/
+@import url(header.css);
+/*========================================*/
+@import url(hero.css);
+/*========================================*/
+@import url(about.css);
+/*========================================*/
+@import url(assortment.css);
+/*========================================*/
+@import url(footer.css);
+/*========================================*/
+/*tipa-palitra============================*/
+:root {
+	--text-color: rgba(0, 0, 0, 1);
+	--text-withe-color: rgba(255, 255, 255, 1);
+	--gray-color: #2f2f2f;
+}
+/*========================================*/
+body {
+	color: var(--text-color);
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	line-height: 1.31;
+}
+/*========================================*/
+.wrapper {
+	min-width: 100%;
+	overflow: clip;
+}
+[class*='__container'] {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 0.9375rem;
+}
+/*========================================*/
