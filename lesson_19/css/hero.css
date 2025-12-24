@@ -2,7 +2,7 @@
 }
 .hero {
 	position: relative;
-	margin-bottom: 5.25rem;
+	margin-bottom: 2.625rem; /*! Фак, тільки звраз зрозумів зо від мене вимагалося*/
 }
 .hero__container {
 	display: flex;
